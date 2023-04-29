@@ -1,0 +1,59 @@
+body {
+  background-color: #FDE2F3;
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #2A2F4F;
+  margin-bottom: auto;
+}
+nav.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.navbar a {
+  background-color: #E5BEEC;
+  font-family: "Bruno Ace SC", cursive;
+  color: #2A2F4F;
+  font-size: 13px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.nav-button:hover {
+  background-color: #be5a83;
+  font-weight: bold;
+  color: #fff;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 50px auto;
+  border: #917FB3;
+  background-color: #FDE2F3;
+  border-style: solid;
+  display: block;
+}
+
+p.about{
+    font-family: "Bruno Ace SC", cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #be5a83;
+    margin:  auto 20px;
+}
+
+span.special-words{
+    font-family: "Bruno Ace SC", cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #2A2F4F;
+}

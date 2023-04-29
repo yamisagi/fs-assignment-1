@@ -20,8 +20,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS
 <details>
   <summary>Table of Contents</summary>
@@ -50,37 +48,35 @@
  WE WILL USE HERE LATER-->
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
+
 <!-- add asset here later -->
 <!--<img src="https://github.com/yamisagi/us/blob/main/assets/product.gif" width="350" height="550"> -->
 
-
-In this repository, I will create basic static Web site that includes all the concepts that we learned in the course till now. I will use HTML, CSS. 
+In this repository, I will create basic static Web site that includes all the concepts that we learned in the course till now. I will use HTML, CSS.
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
+- [x] Project Setup
+- [x] Create a basic HTML page
+- [x] Add CSS to the page
+- [x] Add a navigation bar
+- [x] Link fonts ( I used Google Fonts - Pacifico, Bruno Ace SC )
 
-  - [x] Project Setup
-
-
-  
 <p align="center">(Still working on it...)</p>
 
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
+
 ## Contact
 
-Eren C. - [@_yamisagi](https://twitter.com/_yamisagi)
+Eren C. - [@\_yamisagi](https://twitter.com/_yamisagi)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS
 ## Acknowledgments
@@ -97,6 +93,7 @@ Eren C. - [@_yamisagi](https://twitter.com/_yamisagi)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
