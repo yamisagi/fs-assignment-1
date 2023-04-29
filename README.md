@@ -69,6 +69,10 @@ In this repository, I will create basic static Web site that includes all the co
 - [x] Add few projects with IFrames
 - [x] Add bottom navigation bar
 - [x] Add contact section
+- [x] Add send message form
+- [x] Add back to top button
+- [x] Link all sections
+- [x] Project is ready to deploy
 
 <p align="center">(Still working on it...)</p>
 

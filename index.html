@@ -27,12 +27,12 @@
     <title>Eren Candan</title>
   </head>
   <body>
-    <h1>Eren Candan</h1>
+    <h1 id="head">Eren Candan</h1>
     <nav class="navbar">
-      <a class="nav-button" href="#">Home</a>
-      <a class="nav-button" href="#">About</a>
-      <a class="nav-button" href="#">Projects</a>
-      <a class="nav-button" href="#">Contacts</a>
+      <a class="nav-button" href="#head">Home</a>
+      <a class="nav-button" href="#about">About</a>
+      <a class="nav-button" href="#projects">Projects</a>
+      <a class="nav-button" href="#contact">Contacts</a>
     </nav>
 
     <img
@@ -40,7 +40,7 @@
       src="https://avatars.githubusercontent.com/u/84624853?v=4"
       alt="profile-img"
     />
-    <p class="about">
+    <p id="about" class="about">
       Hi, I'm Eren. I'm a Mobile Developer and I have been developing mobile
       applications for 1 year with <span class="special-words">Flutter</span> &
       <span class="special-words">Swift</span>. I'm also interested in
@@ -48,7 +48,7 @@
       learn <span class="special-words">React Native</span> 🥳
     </p>
 
-    <div class="projects">
+    <div id="projects" class="projects">
       <h2>Projects</h2>
       <hr />
       <div class="project-card">
@@ -107,7 +107,7 @@
       <hr />
     </div>
     <div>
-      <p class="contact-me">Contact Me</p>
+      <p id="contact" class="contact-me">Contact Me</p>
       <br />
       <nav class="bottom-navbar">
         <a
@@ -133,6 +133,33 @@
         >
       </nav>
     </div>
-    <div class="send-message"></div>
+    <hr />
+    <div class="send-message">
+      <p class="contact-me">Send Me a Message</p>
+      <form action="#" method="POST">
+        <input
+          class="input"
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          class="input"
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+        <textarea
+          class="message"
+          name="message"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button class="send-button" type="submit" name="submit">Send</button>
+      </form>
+      <a class="back-top-button" href="#head">Back to top</a>
+    </div>
   </body>
 </html>
