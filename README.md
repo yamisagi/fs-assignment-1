@@ -67,6 +67,8 @@ In this repository, I will create basic static Web site that includes all the co
 - [x] Link fonts ( I used Google Fonts - Pacifico, Bruno Ace SC )
 - [x] Add Project section
 - [x] Add few projects with IFrames
+- [x] Add bottom navigation bar
+- [x] Add contact section
 
 <p align="center">(Still working on it...)</p>
 
