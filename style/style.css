@@ -1,5 +1,5 @@
 body {
-  background-color: #FDE2F3;
+  background-color: #fde2f3;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -7,8 +7,22 @@ h1 {
   font-family: "Pacifico", cursive;
   font-size: 50px;
   text-align: center;
-  color: #2A2F4F;
+  color: #2a2f4f;
   margin-bottom: auto;
+}
+h2 {
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #2a2f4f;
+  margin: 50px auto;
+}
+hr {
+  border: 0;
+  height: 3px;
+  width: 70%;
+  margin: 10px auto 50px auto;
+  background-image: linear-gradient(to right, #ccc, #be5a83, #ccc);
 }
 nav.navbar {
   display: flex;
@@ -17,9 +31,9 @@ nav.navbar {
 }
 
 .navbar a {
-  background-color: #E5BEEC;
+  background-color: #e5beec;
   font-family: "Bruno Ace SC", cursive;
-  color: #2A2F4F;
+  color: #2a2f4f;
   font-size: 13px;
   padding: 10px 20px;
   margin: 0 10px;
@@ -37,23 +51,72 @@ nav.navbar {
   height: 150px;
   border-radius: 50%;
   margin: 50px auto;
-  border: #917FB3;
-  background-color: #FDE2F3;
+  border: #917fb3;
+  background-color: #fde2f3;
   border-style: solid;
   display: block;
 }
 
-p.about{
-    font-family: "Bruno Ace SC", cursive;
-    font-size: 20px;
-    text-align: center;
-    color: #be5a83;
-    margin:  auto 20px;
+p.about {
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 20px;
+  text-align: center;
+  color: #be5a83;
+  margin: auto 20px;
 }
 
-span.special-words{
-    font-family: "Bruno Ace SC", cursive;
-    font-size: 20px;
-    text-align: center;
-    color: #2A2F4F;
+span.special-words {
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 20px;
+  text-align: center;
+  color: #2a2f4f;
+}
+span.project-special-words {
+  font-family: "Bruno Ace SC", cursive;
+  text-align: center;
+  color: #2a2f4f;
+}
+.project-card {
+  display: flex;
+}
+
+iframe.big-video {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  background-color: #fde2f3;
+  margin: 20px 20px;
+  width: 560px;
+  height: 315px;
+}
+iframe.mobile-video {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  background-color: #fde2f3;
+  margin: 20px 250px 20px 150px;
+  width: 215px;
+  height: 440px;
+}
+
+.project-info h3 {
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 25px;
+  text-align: center;
+  color: #2a2f4f;
+  margin: 20px 100px;
+}
+.project-info p {
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 15px;
+  text-align: center;
+  color: #be5a83;
+  margin: 20px 20px;
+}
+
+a.github-links {
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 15px;
+  text-align: center;
+  color: #c50682;
+  margin: 20px 20;
+  text-decoration: underline;
 }
