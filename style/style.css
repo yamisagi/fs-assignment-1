@@ -186,7 +186,7 @@ span.project-special-words {
     display: flex;
   }
 
-  iframe.big-video {
+  video.big-video {
     border-radius: 12px;
     border: 2px solid #fff;
     background-color: #fde2f3;
@@ -194,7 +194,7 @@ span.project-special-words {
     width: 560px;
     height: 315px;
   }
-  iframe.mobile-video {
+  video.mobile-video {
     border-radius: 12px;
     border: 2px solid #fff;
     background-color: #fde2f3;
