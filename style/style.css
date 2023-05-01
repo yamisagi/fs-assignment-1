@@ -185,7 +185,7 @@ span.project-special-words {
   .project-card {
     display: flex;
   }
-  
+
   iframe.big-video {
     border-radius: 12px;
     border: 2px solid #fff;
@@ -202,7 +202,7 @@ span.project-special-words {
     width: 215px;
     height: 440px;
   }
-  
+
   .project-info h3 {
     font-family: "Bruno Ace SC", cursive;
     font-size: 25px;
@@ -217,7 +217,7 @@ span.project-special-words {
     color: #be5a83;
     margin: 20px 20px;
   }
-  
+
   a.github-links {
     font-family: "Bruno Ace SC", cursive;
     font-size: 15px;
@@ -228,12 +228,12 @@ span.project-special-words {
   }
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 960px) {
   .project-card {
     display: flex;
     flex-direction: column;
   }
-  
+
   iframe.big-video {
     border-radius: 12px;
     border: 2px solid #fff;
@@ -241,7 +241,6 @@ span.project-special-words {
     margin: 20px auto;
     width: 560px;
     height: 315px;
-    
   }
   iframe.mobile-video {
     border-radius: 12px;
@@ -251,7 +250,7 @@ span.project-special-words {
     width: 215px;
     height: 440px;
   }
-  
+
   .project-info h3 {
     font-family: "Bruno Ace SC", cursive;
     font-size: 25px;
@@ -266,7 +265,7 @@ span.project-special-words {
     color: #be5a83;
     margin: 20px 20px;
   }
-  
+
   a.github-links {
     font-family: "Bruno Ace SC", cursive;
     font-size: 15px;
@@ -275,4 +274,30 @@ span.project-special-words {
     margin: 20px 20;
     text-decoration: underline;
   }
+}
+
+.github-repos {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+.github-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 50px auto;
+  border: #917fb3;
+  background-color: #fde2f3;
+  border-style: solid;
+  display: block;
+  content: url("https://avatars.githubusercontent.com/u/84624853?v=4");
+}
+
+.github-img:hover {
+  background-color: #be5a83;
+  color: #fff;
+  content: url("/img/hearth.png");
 }
