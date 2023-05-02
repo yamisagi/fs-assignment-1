@@ -299,5 +299,5 @@ span.project-special-words {
 .github-img:hover {
   background-color: #be5a83;
   color: #fff;
-  content: url("/img/hearth.png");
+  content: url("hearth.png");
 }
